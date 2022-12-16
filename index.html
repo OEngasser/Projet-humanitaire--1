@@ -2,41 +2,191 @@
     <html lang="fr">
         <head>
             <meta charset="utf-8">
+            <meta name="description" content="LA DESCRIPTION DE TA PAGE">
             <title>Projet humanitaire IA School</title>
-            <link rel="stylesheet" href="style.css">
-            <script src="script.js"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="styles.css">
         </head>
         <body>
-            <p>
-                <!-- Texte de présentation -->
-                Mon projet a consisté à accompagner une jeune fille de cinquième, Chloé, qui présente une forte démotivation en mathématiques, 
-                et un risque décrochage spécifique dans cette matière.<br />
-                Ma première action a été de l'accompagner durant quelques séances de soutien en maths, 
-                et ma deuxième action a été de réaliser avec elle l'interview d'une femme dont le métier fait appel aux maths. 
-            </p>
-            <h1>Contexte de l'action</h1>
-            <p>
-                Mon projet s'est centré sur Chloé, jeune fille de cinquième m'ayant fait part de son désarroi face à son retard en maths, 
-                ainsi que ses blocages laissant présager une rupture complète avec la matière. J'ai reçu Chloé chez moi lors de 3 séances, 
-                deux étant dédiées au soutien en maths, et une étant consacrée à une interview au cours de laquelle nous avons échangé, en visio, 
-                avec une professionnelle spécialisée dans la tech'.<br /> 
-                Après un échange avec la maman de Chloé, la jeune fille a de suite manifesté son enthousiasme à l'idée d'être accompagnée, 
-                et s'est sentie en confiance à l'idée de pouvoir trouver un lieu tiers pour évoquer ses difficultés, en dehors
-                des aides aux devoirs parentales, certes très importantes et utiles, mais bien souvent sources d'angoisses et de conflits.
-            </p>
-            <h1>Pourquoi cette action ?</h1>
-            <p>
-                Je suis sensible à la question du rapport des élèves, et plus particulièrement les filles, aux mathématiques. En effet, 
-                la nouvelle réforme du lycée a abouti à un constat alarmant : la part des filles pratiquant les maths intensives 
-                en Terminale a chuté de près 10 points, passant de 48.4% à 38.2%.<br /> 
-                Il existe un double stéréotype mis en évidence par David Bessis : on pense encore trop souvent, 
-                à tort, qu’il existerait une population de gens dits "matheux", et d’autres qui ne le seraient pas. L’auteur nous démontre 
-                que tout cerveau a la possibilité d’avoir de bonnes capacités en maths, à partir du moment où il se représente visuellement, 
-                imaginairement les objets mathématiques. Les filles subissent une double peine, car les représentations populaires les pensent
-                moins fortes en maths, moins prédisposées à aimer cette matière et à faire carrière dans ce domaine.<br /> 
-                Selon Anne Siety, dans son livre "Mathématiques, ma chère terreur", les blocages en maths peuvent aussi résulter de conflits
-                internes qui demandent à être apaisés, et alors, l'esprit de l'enfant se tourne vers cet apprentissage naturellement.                              
-            </p>
+            <header class="header">
+                <span class="home-anchor" id="home"></span>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"> 
+                            <a href="#home" class="nav-link">Accueil</a> 
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="#presentation" class="nav-link">Présentation</a> 
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="#context" class="nav-link">Contexte</a> 
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="#action" class="nav-link">Action</a> 
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="*" class="nav-link">NavItem</a> 
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="*" class="nav-link">NavItem</a> 
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="#thanks" class="nav-link">Remerciements</a> 
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-main-container">
+                    <div class="header-img-container">
+                        <img src="./assets/header.jpg" alt="photo de présentation du projet humanitaire" class="header-img">
+                    </div>
+                    <h1>L'EXPÉRIENCE SUPER CHOUETTE D'OPHÉLIE</h1>
+                </div>
+                <span class="presentation-anchor" id="presentation"></span>
+            </header>
+            
+
+            <section class="presentation-section">
+                <div class="left-container">
+                    <div class="text-container">
+                        <h2>Présentation</h2>
+                        <p>
+                            Mon projet a consisté à accompagner une jeune fille de cinquième, Chloé, qui présente une forte démotivation en mathématiques, 
+                            et un risque décrochage spécifique dans cette matière.<br><br>
+                            Ma première action a été de l'accompagner durant quelques séances de soutien en maths, 
+                            et ma deuxième action a été de réaliser avec elle l'interview d'une femme dont le métier fait appel aux maths. 
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="presentation-img-container section-img-container">
+                        <img src="./assets/homework.jpg" alt="photo de la section présentation" class="presentation-img section-img">
+                    </div>
+                </div>
+            </section>
+            <span class="context-anchor visible-span" id="context"></span>
+
+            <section class="context-section reversed-section">
+                <div class="left-container">
+                    <div class="text-container">
+                        <h2>Contexte de l'action</h2>
+                        <p>
+                            Mon projet s'est centré sur Chloé, jeune fille de cinquième m'ayant fait part de son désarroi face à son retard en maths, 
+                            ainsi que ses blocages laissant présager une rupture complète avec la matière. J'ai reçu Chloé chez moi lors de 3 séances, 
+                            deux étant dédiées au soutien en maths, et une étant consacrée à une interview au cours de laquelle nous avons échangé, en visio, 
+                            avec une professionnelle spécialisée dans la tech'.<br><br> 
+                            Après un échange avec la maman de Chloé, la jeune fille a de suite manifesté son enthousiasme à l'idée d'être accompagnée, 
+                            et s'est sentie en confiance à l'idée de pouvoir trouver un lieu tiers pour évoquer ses difficultés, en dehors
+                            des aides aux devoirs parentales, certes très importantes et utiles, mais bien souvent sources d'angoisses et de conflits.
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="presentation-img-container section-img-container">
+                        <img src="./assets/homework.jpg" alt="photo de la section présentation" class="presentation-img section-img">
+                    </div>
+                </div>
+            </section>
+            <span class="action-anchor visible-span" id="action"></span>
+
+            <section class="action-section">
+                <div class="left-container">
+                    <div class="text-container">
+                        <h2>Pourquoi cette action ?</h2>
+                        <p>
+                            Je suis sensible à la question du rapport des élèves, et plus particulièrement les filles, aux mathématiques. En effet, 
+                            la nouvelle réforme du lycée a abouti à un constat alarmant : la part des filles pratiquant les maths intensives 
+                            en Terminale a chuté de près 10 points, passant de 48.4% à 38.2%.<br><br> 
+                            Il existe un double stéréotype mis en évidence par David Bessis : on pense encore trop souvent, 
+                            à tort, qu’il existerait une population de gens dits "matheux", et d’autres qui ne le seraient pas. L’auteur nous démontre 
+                            que tout cerveau a la possibilité d’avoir de bonnes capacités en maths, à partir du moment où il se représente visuellement, 
+                            imaginairement les objets mathématiques. Les filles subissent une double peine, car les représentations populaires les pensent
+                            moins fortes en maths, moins prédisposées à aimer cette matière et à faire carrière dans ce domaine.<br><br> 
+                            Selon Anne Siety, dans son livre "Mathématiques, ma chère terreur", les blocages en maths peuvent aussi résulter de conflits
+                            internes qui demandent à être apaisés, et alors, l'esprit de l'enfant se tourne vers cet apprentissage naturellement.                              
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="presentation-img-container section-img-container">
+                        <img src="./assets/homework.jpg" alt="photo de la section présentation" class="presentation-img section-img">
+                    </div>
+                </div>
+            </section>
+            <span class="NEXTSECTION-anchor visible-span" id="NEXTSECTION"></span>
+
+            <section class="xxx-section reversed-section">
+                <div class="left-container">
+                    <div class="text-container">
+                        <h2>Sous-titre</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam neque, quam natus eveniet a nulla illo doloribus saepe, expedita pariatur dolores labore suscipit, soluta odit! Recusandae voluptatem dolorem pariatur ea!    
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="presentation-img-container section-img-container">
+                        <img src="./assets/homework.jpg" alt="photo de la section présentation" class="presentation-img section-img">
+                    </div>
+                </div>
+            </section>
+            <span class="NEXTSECTION-anchor visible-span" id="NEXTSECTION"></span>
+
+            <section class="xxx-section">
+                <div class="left-container">
+                    <div class="text-container">
+                        <h2>Sous-titre</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam neque, quam natus eveniet a nulla illo doloribus saepe, expedita pariatur dolores labore suscipit, soluta odit! Recusandae voluptatem dolorem pariatur ea!    
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="presentation-img-container section-img-container">
+                        <img src="./assets/homework.jpg" alt="photo de la section présentation" class="presentation-img section-img">
+                    </div>
+                </div>
+            </section>
+            <span class="NEXTSECTION-anchor visible-span" id="NEXTSECTION"></span>
+
+            <section class="xxx-section reversed-section">
+                <div class="left-container">
+                    <div class="text-container">
+                        <h2>Sous-titre</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam neque, quam natus eveniet a nulla illo doloribus saepe, expedita pariatur dolores labore suscipit, soluta odit! Recusandae voluptatem dolorem pariatur ea!    
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="presentation-img-container section-img-container">
+                        <img src="./assets/homework.jpg" alt="photo de la section présentation" class="presentation-img section-img">
+                    </div>
+                </div>
+            </section>
+            <span class="thanks-anchor visible-span" id="thanks"></span>
+
+            <section class="thanks-section">
+                <div class="left-container">
+                    <div class="text-container">
+                        <h2>Remerciements</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam neque, quam natus eveniet a nulla illo doloribus saepe, expedita pariatur dolores labore suscipit, soluta odit! Recusandae voluptatem dolorem pariatur ea!    
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="presentation-img-container section-img-container">
+                        <img src="./assets/homework.jpg" alt="photo de la section présentation" class="presentation-img section-img">
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <p>Ophélie Engasser, Data Scientist. Décembre 2022.</p>
+            </footer>
+
         </body>
     </html> 
 
