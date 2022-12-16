@@ -1,1 +1,1 @@
-# Projet-humanitaire
+# Projet-humanitaire IA School
