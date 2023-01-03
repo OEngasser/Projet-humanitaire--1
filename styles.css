@@ -60,7 +60,16 @@ section, .nav {
     padding: 0 2em;
 }
 
-section {
+.presentation-section>.text-container, 
+.thanks-section>.text-container {
+    margin: 0 auto;
+}
+
+.context-section,
+.choice-section,
+.actions-section,
+.benefits-section,
+.feedback-section {
     display: inline-flex;
     width: 100%;
     box-sizing: border-box;
