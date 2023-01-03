@@ -144,6 +144,10 @@ section, .nav {
     opacity: 0.2;
 }
 
+.article-link {
+    color: #2676b8;
+}
+
 /* ----- FOOTER ----- */
 
 .footer {
