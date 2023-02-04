@@ -82,6 +82,17 @@ section, .nav {
 
 /* ----- HEADER / NAV ----- */
 
+.logoContainer,
+.logoContainer2,
+.logo,
+.logo2 {
+    height: 3em;
+}
+
+.logoContainer2 {
+    background-color: white;
+}
+
 .nav {
     position: fixed;
     left: 0;
@@ -155,6 +166,6 @@ section, .nav {
     background-color: #333;
     color: #f2f2f2;
     height: 4em;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
